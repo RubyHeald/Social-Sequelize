@@ -16,7 +16,3 @@ const Post = sequelize.define('Post', {
 module.exports = {
     Song
 };
-
-// title: A string
-// body: A string
-// createdAt: A date formatted as a string
