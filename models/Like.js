@@ -1,4 +1,15 @@
+const { STRING } = require('sequelize');
+const {Sequelize, sequelize} = require('../db');
 
-let Like;
+const Like = sequelize.define('Like', {
+    reactionType: {
+      type: DataTypes.STRING
+    },
+    createdAt: {
+      type: DataTypes.STRING
+    },
+  });
 
-module.exports = Like;
+module.exports = {
+    Like
+};
